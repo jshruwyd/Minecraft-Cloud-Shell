@@ -1,12 +1,12 @@
-# Minecraft Cloud Shell Tutorial & Info  
+# Minecraft Cloud Shell
 
-In this project, we'll teach you host your very own Java/Bedrock Minecraft Server using `Google Cloud Shell`. This works under `Ubuntu/Debian` based Linux operation system. This project requires **NO CREDIT CARD** and the whole project is entirely **FREE**! You can make a server without costing you anything.  
+In this project, we'll teach you host your very own Java/Bedrock Minecraft Server using `Cloud Shell Terminal`. This works under `Ubuntu/Debian` based Linux operation system. This project requires **NO CREDIT CARD** and the whole project is entirely **FREE**! You can make a server without costing you anything.  
   
 [![Star History Chart](https://api.star-history.com/svg?repos=lordofwizard/mcserver&type=Date)](https://star-history.com/#lordofwizard/mcserver&Date)  
 
 
 **The following features are added into this project are:**
-- Supports different type of Bedrock Servers
+- Supports different types of Bedrock Servers
 - Clean & Friendly Interface
 - Supports Additional type of Java Server *(eg. Sponge, Paper, Fabric etc)*
 - Added Server Management
@@ -21,28 +21,18 @@ In this project, we'll teach you host your very own Java/Bedrock Minecraft Serve
 
 > [**Submit any Issues here**](https://github.com/lordofwizard/mcserver/issues)
 
-> [**Join the Discord Server**](https://discord.gg/V2R26jBEzN)
-### To do list
-- [x] Asking the user for the specific version they want to run of java.
-- [x] Add 3rd party sources in the list.
-- [x] Automatic message typer for typing something on the server. (AFK APP)
-- [x] More easy way to upload files on google drive.(use cloud-shell editor)
-- [x] Update script.
-### Server Specs:
-- **OS:** Debian GNU/Linux 10 (buster) x86_64
-- **RAM:** 8GB to 16GB
-- **Location:** Based on your physical location.
-- **Storage:** Approx 5GB
-- **CPU:**  AMD EPYC (2) 7B12 @ 2.249GHz or Intel Xeon (4) @ 2.199GHz
+> [**Join LordOfWizard's Discord Server**](https://discord.gg/V2R26jBEzN)
 
-You can view your exact specs by doing `./specinfo`
+> [**Join ArcticWoof's Discord Server**](https://dsc.gg/arcticwoof)
+
+You can view your exact specs by doing `neofetch` in the console
 
 ### Service Used:
 - [playit.gg](https://playit.gg)
 - [console.cloud.google.com](https://console.cloud.google.com)
+- [deepnote.com](https://deepnote.com)
 
-## Installation 
-* Activate a [Google Cloud Shell](https://console.cloud.google.com/) on Google cloud.
+## Installation (Main Branch)
 * Clone this GitHub Project into the Console:
 ```
 git clone https://github.com/lordofwizard/mcserver
@@ -50,6 +40,29 @@ git clone https://github.com/lordofwizard/mcserver
 * Go into `mcserver` directory:
 ```
 cd mcserver
+```
+* Allow all commands executable:
+```
+chmod +x *
+```
+* Run the Installation Script:
+```
+./install
+```
+Follow the installation step shown in the console
+* Run the Start Server Script:
+``` 
+./startserver
+```
+(You only need to do this if you chose `No`.)
+## Installation (ArcticWoof's Branch)
+* Clone this GitHub Project into the Console:
+```
+git clone https://github.com/DumbCaveSpider/Minecraft-Cloud-Shell
+```
+* Go into `Minecraft-Cloud-Shell` directory:
+```
+cd Minecraft-Cloud-Shell
 ```
 * Allow all commands executable:
 ```
@@ -87,7 +100,7 @@ Do `Ctrl + W` then press `Y` to save and press `Enter` exit the text editor.
 ```
 cd ..
 ```
-- And [Restart the Server](https://github.com/lordofwizard/mcserver/blob/main/README.md#restarting-your-server).
+- And [Restart the Server](https://github.com/DumbCaveSpider/Minecraft-Cloud-Shell/blob/main/README.md#restarting-your-server).
 * Now everything should be functional and ready. You can check if your server is up and running by doing `screen -r server`.
 ## Joining your Server
 * To join your server, start your server by doing `./startserver` *(If you haven't started it yet)* and do this command:
@@ -126,7 +139,7 @@ online-mode=false
 ```
 Do `Ctrl + W` then press `Y` to save and press `Enter` exit the text editor.
 
-- [Restart](https://github.com/lordofwizard/mcserver/blob/main/README.md#restarting-your-server) your server after you apply these changes.
+- [Restart](https://github.com/DumbCaveSpider/Minecraft-Cloud-Shell/blob/main/README.md#restarting-your-server) your server after you apply these changes.
 
 ## Access Server Files
 If you want to access your server files, go to `Open Editor` on the top right.
@@ -152,17 +165,6 @@ The following `Bedrock` servers are supported for custom variables:
 These servers aren't supported for custom variables:
 - Sponge `Java` *(This server type is too old and it only supports direct download)*
 - GoMint `Bedrock` *(No Variables needed for this type of server)*
-## Older Version
-If you are using older version of Minecraft check out [this](https://github.com/lordofwizard/mcserver/wiki/Version) documentation and install it according to your need:
-
-You can go inside the server scripts and edit **ONLY** on this section of the code:
-```
-# -- EDIT HERE | DO NOT EDIT ABOVE -- #
-EXAMPLE_VARIBALES=VARIABLES # NOTE ABOUT VARIABLES
-# -- EDIT HERE | DO NOT EDIT BELOW -- #
-```
-
-*(Note: Do not edit the code below and above as it will break the installation and you have to delete the project again.)*
 
 ## Restarting your Server
 If you don't know what restarting your server mean, here's the step.
@@ -211,7 +213,7 @@ cd
 ```
 sudo rm -r mcserver
 ```
-If the project is completely deleted, you can [Clone the Project](https://github.com/lordofwizard/mcserver/blob/main/README.md#installation) again and it should be up to date with the new features and code from this project!
+If the project is completely deleted, you can [Clone the Project](https://github.com/DumbCaveSpider/Minecraft-Cloud-Shell/blob/main/README.md#installation) again and it should be up to date with the new features and code from this project!
 ## Conclusion
 Now you can host your very own Minecraft Server for both Java & Bedrock fast and easy and it won't cost you a single penny to make a fast and strong server. Best of all, IT'S FOREVER! Feel free to leave any requests you would like me to add into the project. If you have any issues, go to the [**Issues**](https://github.com/lordofwizard/mcserver/issues) tab and submit a issue there.
 ## Credits
