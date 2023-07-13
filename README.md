@@ -79,8 +79,9 @@ Follow the installation step shown in the console
 ```
 (You only need to do this if you chose `No`.)
 
-## Java Server Additional Setup (You can skip this part)
-*(This only applies to Java Servers including Nukkit or the EULA script didn't work for you.)*
+## Accepting Server EULA (Java Servers)
+*This only applies to Java Servers including Nukkit or the EULA script didn't work for you.*
+*You can skip this part as this is already done for you.
 
 If you first start up your server, it will fail to start because you need to accept the **EULA** to run properly.
 
