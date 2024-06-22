@@ -2,9 +2,6 @@
 export MAIN_DIR=$PWD
 echo "> Starting the server up. Please wait..."                                                                                 
 echo "> Installing Dependencise..."
-
-sudo apt install -y -qq screen wget  
-
 echo "> Dependencise Installed!"
 
 echo "> Checking Server Type..."
